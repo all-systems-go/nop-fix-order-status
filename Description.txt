@@ -1,0 +1,8 @@
+﻿Group: All Systems Go
+FriendlyName: Fix Downloadable Product Order Status
+SystemName: AllSystemsGo.FixDownloadableProductOrderStatus
+Version: 1.0
+SupportedVersions: 3.50
+Author: All Systems Go
+DisplayOrder: 1
+FileName: AllSystemsGo.Plugin.FixDownloadableProductOrderStatus.dll
