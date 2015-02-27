@@ -1,0 +1,8 @@
+*.suo
+*.user
+[bB]in/
+[oO]bj/
+[Dd]ebug/
+[Rr]elease/
+packages/
+TestResults/
