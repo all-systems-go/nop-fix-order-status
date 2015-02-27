@@ -103,7 +103,7 @@ namespace AllSystemsGo.Plugin.FixDownloadableProductOrderStatus.Tests
 		#endregion
 
 		[SetUp]
-		public new void SetUp()
+		public void SetUp()
 		{
 			_workContext = null;
 
