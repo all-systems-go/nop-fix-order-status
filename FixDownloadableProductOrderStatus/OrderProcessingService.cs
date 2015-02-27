@@ -26,7 +26,7 @@ using Nop.Services.Vendors;
 using System;
 using System.Linq;
 
-namespace AllSystemsGo.Plugin.DownloadableProductOrderStatus
+namespace AllSystemsGo.Plugin.FixDownloadableProductOrderStatus
 {
     /// <summary>
     /// Overrides the default CheckOrderStatus method behavior to take into account downloadable products

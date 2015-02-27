@@ -3,7 +3,7 @@ using Nop.Core.Infrastructure;
 using Nop.Core.Infrastructure.DependencyManagement;
 using Nop.Services.Orders;
 
-namespace AllSystemsGo.Plugin.DownloadableProductOrderStatus
+namespace AllSystemsGo.Plugin.FixDownloadableProductOrderStatus
 {
 	public class DependencyRegistrar : IDependencyRegistrar
 	{

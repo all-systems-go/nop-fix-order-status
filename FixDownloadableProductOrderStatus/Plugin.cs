@@ -4,10 +4,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AllSystemsGo.Plugin.DownloadableProductOrderStatus
+namespace AllSystemsGo.Plugin.FixDownloadableProductOrderStatus
 {
 	public class Plugin : BasePlugin
 	{
+		public const string SystemName = "AllSystemsGo.FixDownloadableProductOrderStatus";
+
 		public Plugin() : base()
 		{
 		}
@@ -22,7 +24,7 @@ namespace AllSystemsGo.Plugin.DownloadableProductOrderStatus
 			if (types.Count() == 1)
 			{
 				IPluginFinder plugins = Activator.CreateInstance(types.First()) as IPluginFinder;
-				PluginDescriptor descriptor = plugins.GetPluginDescriptorBySystemName("AllSystemsGo.FixDownloadableProductOrderStatus");
+				PluginDescriptor descriptor = plugins.GetPluginDescriptorBySystemName(Plugin.SystemName);
 
 				if (descriptor != null && descriptor.Installed)
 				{
