@@ -173,7 +173,7 @@ namespace AllSystemsGo.Plugin.FixDownloadableProductOrderStatus
                     if (order.ShippingStatus == ShippingStatus.ShippingNotRequired || order.ShippingStatus == ShippingStatus.Delivered)
                     {
 						// do not mark as complete if the order contains products that require manual download activation
-						if (order.OrderItems.FirstOrDefault(item => item.Product.DownloadActivationType == DownloadActivationType.Manually && !item.IsDownloadActivated) == null)
+						if (order.OrderItems.FirstOrDefault(item => item.Product.IsDownload && item.Product.DownloadActivationType == DownloadActivationType.Manually && !item.IsDownloadActivated) == null)
 						{
 							SetOrderStatus(order, OrderStatus.Complete, true);
 						}
