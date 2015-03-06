@@ -37,8 +37,11 @@ This organization keeps custom plugins from the same source grouped together, an
 Plugins folder with external plugins.
 
 To build the plugin:
+
 1. Get the NopCommerce source code
+
 2. Inside the `/src/` folder, create a folder to hold all plugins for this plugin group: `AllSystemsGo.Plugins`
+
 3. Inside the `AllSystemsGo.Plugins` folder, clone this repository
 
 The final path to this plugin's source should look something like this: `~\NopCommerce\src\AllSystemsGo.Plugins\nop-fix-order-status`.
